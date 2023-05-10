@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin: 0;
+}
+/*  
+    CSS COLOR
+    CSS BACKGROUND PROPERTIES
+    CSS BORDER
+    MULTIPLE BORDER
+    BORDER-RADIUS
+	CSS OUTLINE
+	CSS OPACITY
+    CSS BUTTON
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+
+
+/* css color */
+
+/* .rgb{
+    height:100px;
+    width:200px;
+    background-color:rgb(0 , 0, 255);
+} */
+
+/* .rgba{
+    height:100px;
+    width:200px;
+    background-color: rgba(255, 0, 0, 1);
+} */
+
+/* .hex{
+    height:100px;
+    width:200px;
+    background-color: #ffffff;
+} */
+
+/* .hsl{
+    height:100px;
+    width:200px;
+    background-color:hsl(240,100%,50%);
+}  */
+
+/* .transparent{
+    height: 200px;
+    background-color:pink;
+    border: 1px solid black;
+} */
+
+/* .base-box{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: yellow;
+    top:0;
+    z-index: -1;
+} */
+
+
+/* css background properties */
+
+/* .background-color{
+    height: 100px;
+    background-color: red;
+} */
+
+.background-image{
+    height: 100vh;
+    background-image: url("../image/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+    padding: 30px;
+    background-origin: content-box;
+    border:30px dashed red;
+}
+
+p{
+    max-width: 500px;
+}
+
+/* .linear-gradient-1{
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to top, red, blue , yellow);
+}
+
+.diagonal-linear-gradient {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to bottom left, red 50% , yellow 50%);
+}
+
+.linear-gradient-rainbow {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)
+}
+
+.radial-gradient-simple {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+}
+
+.radial-gradient {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(circle farthest-corner at top, red, blue);
+}
+
+.bullseye {
+    height: 100vh;
+    width:100%;
+    background: repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+}
+
+.warning {
+    height: 100vh;
+    width:100%;
+    background: repeating-linear-gradient(-45deg, yellow, yellow 10%, black 10%, black 20% );
+}
+
+.conic{
+    height: 400px;
+    width: 400px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green);
+} */
+
+
+/* css border properties */
+
+/* css border types
+    solid
+    dotted
+    dashed
+    double
+    hidden
+    none
+    ridge
+    inset
+    outset
+    groove
+*/
+
+.main{
+    display: flex;
+    padding: 10px;
+    border:1px solid red;
+    /* SHORT HAND METHOD */
+}
+.box-1{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px dotted red;
+}
+.box-2{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px solid red;
+}
+.box-3{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px inset red;
+}
+.box-4{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px outset red;
+}
+.box-5{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px double red;
+}
+.box-6{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px ridge red;
+}
+.box-7{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px none red;
+}
+.box-8{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px dashed red;
+}
+.box-9{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px groove red;
+}
+.box-10{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    margin-right: 10px;
+    border:5px hidden red;
+    /* short hand method*/
+}
+
+/* .box-1{
+    border-top:5px solid red;
+   border-bottom: 5px dotted green;
+   border-left-width: 10px;
+   border-left-style: double;
+    border-left-color:red;
+    border-left:10px solid green;
+}  */
+
+/* border radius */
+
+.radius{
+    height: 300px;
+    width: 300px;
+    border:2px solid blue;
+    border-radius: 100%;
+    /* circle */
+    border-radius: 40px;
+    /*left-top right-top left-bottom right-bottom/*shorthand method*/
+    border-radius:10px 50px;    
+    /* left-top right-bottom / right-top left-bottom */
+    border-radius: 10px 50px 100px;
+    /* left-top / right-top left-bottom / right-bottom*/
+    border-radius: 10px 50px 70px 100px;
+    /* left-top /right-top /right-bottom /left-bottom*/
+    /* border-top-left-radius: 100px; */
+}
+
+/* css outline properties */
+
+/*
+outline:none;
+outline:width style color;
+*/
+
+.boxx-2{
+    height:300px;
+    width:300px;
+    background-color: pink;
+    border:5px solid rgb(243, 6, 6);
+    margin:200px;
+}
+.boxx-2:hover{
+    outline: 5px solid purple;
+    outline-offset: 20px;
+    outline: none;
+}
+
+
+/* css opacity */
+
+.opacity{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 255, 64 ,1);
+    /* opacity:0;  */
+    color:rgb(0, 0, 255);
+}
+.opacity-1{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 255, 64 ,1);
+    color:rgb(0, 0, 255);
+}
+    
+
+/* css button */
+
+/* button tag */
+
+button{
+    background-color: red;
+    border:none;
+    padding:10px 50px;
+    color:white;
+    font-weight: bold;
+    border-radius:5px; 
+}
+
+button:hover{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+
+button:focus{
+    outline:2px solid rgb(163, 163, 255) ;
+}
+ 
+/* anchor tag */
+
+.link-1{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: red;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a:hover{
+    border:5px solid black;
+    background-color: rgba(255, 0, 247, 0.8);
+}
+
+a:focus{
+    border:1px solid black;
+    background-color: rgba(255, 0, 0, 0.42);
+    color:blue;
+}
+
+
+/* input type button */
+
+input{
+    background-color: red;
+    border:none;
+    padding:10px 20px;
+    color:white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input:hover{
+    border:2px solid green;
+    box-shadow: 5px 5px 1px red;
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+.font-family p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.font-size p{
+    font-size:1;
+}
+
+.font-style p:nth-child(1){
+    font-style: italic;
+}
+
+.font-style p:nth-child(2){
+    font-style: oblique;
+}
+
+.font-variant p:nth-child(1){
+    font-variant: small-caps;
+    /* font-variant: normal; */
+}
+
+.font-weight p:nth-child(1){
+    /* font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter; */
+    font-weight:900;
+}
+
+.line-height p{
+    font-size: 15px;
+    line-height:20px;
+}
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Text-direction
+8.Text-shadow
+9.Word spacing
+10.Letter-spacing
+*/
+
+/* text-color */
+
+.text-color p{
+    color:green;
+}
+
+/* text-align */
+
+.text-align p{
+    text-align: left;
+}
+.text-align p{
+    text-align: center;
+}
+.text-align p{
+    text-align: right;
+}
+.text-align p{
+    text-align: justify;
+}
+
+/* text-decoration */
+
+.text-decoration p{
+    text-decoration: overline;
+}
+.text-decoration p{
+    text-decoration: line-through;
+}
+.text-decoration p{
+    text-decoration: underline;
+}
+.text-decoration p{
+    text-decoration: underline dotted red;
+}
+.text-decoration p{
+    text-decoration: wavy red line-through;
+}
+.text-decoration p{
+    text-decoration: none;
+}
+
+/* text-transform */
+
+.text-transform p{
+    text-transform: capitalize;
+}
+.text-transform p{
+    text-transform: uppercase;
+}
+.text-transform p{
+    text-transform: lowercase;
+}
+/* text-indent */
+
+.text-indent p{
+    text-indent: 200px;
+    text-align: justify;
+}
+
+/* letter-spacing */
+
+.letter-spacing p{
+    letter-spacing: 10px;
+}
+
+/* word-spacing */
+
+.word-spacing p{
+    word-spacing: 50px;
+}
+
+/* text-direction */
+
+.text-direction p{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+/* text-shadow */
+
+.text-shadow p:nth-child(1){
+    text-shadow: 5px 5px 2px rgb(0, 8, 255);
+    /* x-axis y-axis bulriness color*/
+}
+
+/* css verticle align */
+
+/* p .a{
+    vertical-align:bottom;
+}
+p .b{
+    vertical-align: baseline;
+}
+p .c{
+    vertical-align: middle;
+}
+p .d{
+    vertical-align: sub;
+}
+p .e{
+    vertical-align: super;
+}
+p .f{
+    vertical-align: text-bottom;
+}
+p .g{
+    
+    vertical-align: top;
+}
+P{
+    font-size: 45px;
+} */
+
+/* css white space */
+
+.whitespace{
+    /* white-space:nowrap;
+    white-space: pre; */
+}
+
+/* css visibility */
+
+h1{
+    visibility:none;
+}
+
+
+
+

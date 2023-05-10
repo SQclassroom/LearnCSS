@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+/* css position */
+
+/* .static{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: static;
+} */
+
+/* .fixeddiv{
+    height:100px;
+    background-color: red;
+    margin-bottom: 10px;
+    position: fixed;
+    top:100px;
+    width: 100%;
+} */
+
+/* .sticky{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    position: sticky;
+    top: 100px;
+} */
+
+.mainbox{
+    display: flex;   
+    height:600px;
+    width:1400px;
+    border:2px solid blue;
+    position: relative;
+}
+
+.box-1{
+    height:100px;
+    width:100px;
+    background-color: rgb(0, 42, 255); 
+    position: absolute;
+    bottom: 0;
+}
+/* .boxx-1{
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    top:0;
+} */
+.box-2{
+    height:100px;
+    width:100px;
+    background-color: rgb(224, 83, 13);
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.box-3{
+    height:100px;
+    width:100px;
+    background-color: rgb(224, 136, 13);
+}
+.box-4{
+    height:100px;
+    width:100px;
+    background-color: rgb(227, 243, 14);
+}
+.box-5{
+    height:100px;
+    width:100px;
+    background-color: rgb(235, 66, 66);
+}
+.box-6{
+    height:100px;
+    width:100px;
+    background-color: rgb(66, 211, 12);
+}
+.box-7{
+    height:100px;
+    width:100px;
+    background-color: rgb(20, 161, 111);
+}
+.box-8{
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 0, 0);
+}
+.box-9{
+    height:100px;
+    width:100px;
+    background-color: rgb(177, 20, 191);
+}
+
+/* Z-index propeties */
+
+/* .z-index-1{
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    z-index: 2;
+}   
+.z-index-2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(128, 0, 119);
+    z-index: 4;
+}
+.z-index-3{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(1, 92, 49);
+    z-index: 3;
+} */
+
+
+ /* float properties */
+
+/* .float-1 img{
+    float: right;
+} */
+
+/* css clear properties */
+
+.clear-1{
+    height:100px;
+    width:100px;
+    background-color: red;
+    float: left;
+}
+.clear-2{
+    height:100px;
+    width:100px;
+    background-color: rgb(0, 4, 255);
+    float: right;
+    clear: left;
+}
+
+/* overflow properties */
+
+/* .box-11{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border:2px solid blue;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-x:hidden;
+    overflow-y: hidden;
+} */
+
+/* .box-22{
+    height: 400px;
+    width:400px;
+    overflow: hidden;
+    overflow: auto;
+} */
+
+/* textarea{
+    resize:both;
+} */
+
+/* css cursor properties */
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+    /* .min-img{
+        height: 600px;
+        width: 600px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    img{
+        object-fit:cover;
+    } */
+
+
+

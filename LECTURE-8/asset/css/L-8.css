@@ -1,0 +1,62 @@
+/* css animation */
+.mainbox{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+    background-color: yellow;
+    margin:100px 0px 0px 150px;
+    border-radius: 100%;
+}
+
+.mainbox{
+    animation-name: ball;
+    animation-duration: 3s;
+    /* animation-delay: 5s; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    /* animation-play-state: running; */
+    /* animation-fill-mode: forwards;   */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: both; */
+    animation-timing-function:linear ;
+    /* animation-timing-function: steps(4); */
+}
+
+/* @keyframes ball{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(500px);
+    }
+} */
+
+@keyframes ball{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(360deg);
+    }
+    20%{
+        transform: translate(500px);
+    }
+    30%{
+        transform: translatey(500px);
+    }
+    40%{
+        /* transform: skew(45deg); */
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
+

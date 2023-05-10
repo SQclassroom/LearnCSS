@@ -1,0 +1,199 @@
+/*  css pseudo class */
+
+/* common css*/
+
+form label{
+    font-size:20px;
+}
+
+/* accent-color*/
+
+input{
+    accent-color:rgb(251, 0, 255);
+}
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    ::marker
+    :invalid
+    :valid 
+
+*/
+
+::placeholder{
+    color:green;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+/* 
+input:focus{
+    border:none;
+    outline:5px solid green;
+    border-radius: 10px;
+}
+
+input:hover{
+    border:5px solid red;
+    outline:2px solid blue;
+    outline-offset:2px;
+} */
+
+/* .order-1 li::marker{
+    color:rgb(230, 255, 6);
+}
+.order-2 li::marker{
+    color:rgb(230, 255, 6);
+}
+
+input:invalid{
+    border:2px solid red;
+}
+input:valid{
+    border:2px solid green;
+} */
+
+/*
+    :empty
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+
+/* div:empty{
+    height: 100px;
+    width:100px;
+    background-color: purple;
+    border:1px solid green;
+} */
+
+/* *:read-only{
+    font-size: 50px;
+    color:blue;
+}
+
+
+*:read-write{
+    font-size: 35px;
+    font-style: italic;
+    color:green;
+} */
+
+/* :root{
+    --color-1:red;
+    --color-2:green;
+}
+
+.boxx-1{
+    height: 100px;
+    width:100px;
+    background-color: var(--color-1);
+}
+
+*:lang("en"){
+    color:green;
+    background-color: red;
+} */
+
+/* css pseudo class */
+
+/*
+
+:first-child
+:first-of-type
+:last-child
+:last-of-type
+:nth-child()
+:nth-last-child()
+:nth-last-of-type()
+:nth-of-type()
+:only-of-type
+:only-child
+:target
+:not()
+
+*/    
+
+h1:only-child{
+    background-color: yellow;
+    color:red;
+}
+
+a[target=_self]{
+    color:red;
+    background-color: green;
+}
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+
+/* h1::before{
+    content: " this is heading tag";
+    background-color: red;
+    height: 100px;
+    width:500px;
+    color:yellow;
+}
+
+.shadow{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin-top: 100px;
+    position: relative;
+}
+
+.shadow::before{
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0.5;
+} */
+
+/* p::first-letter{
+    font-size: 50px;
+    color:rgb(0, 8, 255);
+    text-decoration: underline;
+} */
+
+/* .para-1::first-line{
+    font-size: 50px;
+    color:red;
+    background-color: yellow;
+} */
+
+ p::selection{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color:blue;
+    /* text-decoration: underline; */
+}
+
+
+
+
+
