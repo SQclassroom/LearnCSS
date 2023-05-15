@@ -1,16 +1,8 @@
-/*  css pseudo class */
-
-/* common css*/
-
-form label{
-    font-size:20px;
-}
-
 /* accent-color*/
 
-input{
+/* input{
     accent-color:rgb(251, 0, 255);
-}
+} */
 
 /* 
     :disabled
@@ -26,36 +18,39 @@ input{
 
 */
 
-::placeholder{
+/* ::placeholder{
     color:green;
     text-decoration: underline;
     text-transform: capitalize;
-}
-/* 
-input:focus{
+} */
+
+
+/* input:focus{
     border:none;
     outline:5px solid green;
     border-radius: 10px;
-}
+} */
 
-input:hover{
+/* input:hover{
     border:5px solid red;
     outline:2px solid blue;
     outline-offset:2px;
 } */
 
+/* input:invalid{
+    border:2px solid red;
+} */
+
+/* input:valid{
+    border:2px solid green;
+} */
+
 /* .order-1 li::marker{
     color:rgb(230, 255, 6);
-}
-.order-2 li::marker{
-    color:rgb(230, 255, 6);
-}
+} */
 
-input:invalid{
-    border:2px solid red;
-}
-input:valid{
-    border:2px solid green;
+/* .order-2 li::marker{
+    color:rgb(230, 255, 6);
 } */
 
 /*
@@ -77,10 +72,9 @@ input:valid{
 /* *:read-only{
     font-size: 50px;
     color:blue;
-}
+} */
 
-
-*:read-write{
+/* *:read-write{
     font-size: 35px;
     font-style: italic;
     color:green;
@@ -89,15 +83,17 @@ input:valid{
 /* :root{
     --color-1:red;
     --color-2:green;
+    --flex:flex;
 }
 
 .boxx-1{
     height: 100px;
     width:100px;
     background-color: var(--color-1);
-}
+    display: var(--flex);
+} */
 
-*:lang("en"){
+/* *:lang("en"){
     color:green;
     background-color: red;
 } */
@@ -121,7 +117,7 @@ input:valid{
 
 */    
 
-h1:only-child{
+/* h1:only-child{
     background-color: yellow;
     color:red;
 }
@@ -129,7 +125,7 @@ h1:only-child{
 a[target=_self]{
     color:red;
     background-color: green;
-}
+} */
 
 
 /* css pseudo element */
@@ -185,13 +181,13 @@ a[target=_self]{
     background-color: yellow;
 } */
 
- p::selection{
+ /* p::selection{
     height: 100px;
     width: 100px;
     background-color: yellow;
     color:blue;
-    /* text-decoration: underline; */
-}
+    text-decoration: underline;
+} */
 
 
 
