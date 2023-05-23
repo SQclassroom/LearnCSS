@@ -54,7 +54,6 @@ input:valid{
 } */
 
 /*
-    :empty
     :read-only
     :read-write
     :root
@@ -114,13 +113,25 @@ input:valid{
 :only-child
 :target
 :not()
+:odd(3n)
+:even(2n)
+:empty
 
 */    
 
-/* div:not(.box-1){
+h1:nth-child(3n){
+    background-color: yellow;
+    color:red;
+}
+
+/* attributes selector */
+
+/* input[type='text']{
     background-color: yellow;
     color:red;
 } */
+
+
 
 /* a[target=_blank]{
     color:red;
