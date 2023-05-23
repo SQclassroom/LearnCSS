@@ -1,5 +1,6 @@
 /* @import rule */
 
+/* @import 'index.css'; */
 /* @import 'L-1-1.css'; */
 
 
@@ -24,34 +25,46 @@ css background properties
 
 /* css resetting all properties value */
 
-/* p{
-    color:red;
-}
-
-.para-33{
-    color:green;
-}
-
 .para-22 .para-text{
+    background-color: blueviolet;
+    border:3px solid green;
     color:yellow;
 }
-
-.text .para-22 .para-text{
-    color:brown;
+.para-text{
+    border:3px solid red;
+}
+.para-33{
+    color:blue;
+    background-color: red;
+}
+p{
+    color:red;
+    background-color: yellow;
 }
 .text .para-22 .para-text{
-    color:unset;
+    background-color: tomato;
+    border:none;
+    color:brown;
+}
+
+.text .para-22 .para-text{
+    background-color: unset;
 }
 
 p{
+    background-color: yellow;
+}
+p{
+    background-color: unset;
     color:unset;
 }
-body{
-    background-color: red;
-}
-body{
+
+.para-11 .para-33{
     background-color: unset;
-} */
+    color:unset;
+}
+
+
 
 /* Universal selector */
 

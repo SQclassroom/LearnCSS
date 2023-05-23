@@ -1,16 +1,8 @@
-/*  css pseudo class */
-
-/* common css*/
-
-form label{
-    font-size:20px;
-}
-
 /* accent-color*/
 
-input{
+/* input{
     accent-color:rgb(251, 0, 255);
-}
+} */
 
 /* 
     :disabled
@@ -26,36 +18,39 @@ input{
 
 */
 
-::placeholder{
+/* ::placeholder{
     color:green;
     text-decoration: underline;
     text-transform: capitalize;
-}
-/* 
-input:focus{
+} */
+
+
+/* input:focus{
     border:none;
     outline:5px solid green;
     border-radius: 10px;
-}
+} */
 
-input:hover{
+/* input:hover{
     border:5px solid red;
     outline:2px solid blue;
     outline-offset:2px;
 } */
 
-/* .order-1 li::marker{
-    color:rgb(230, 255, 6);
-}
-.order-2 li::marker{
-    color:rgb(230, 255, 6);
-}
-
-input:invalid{
+/* input:invalid{
     border:2px solid red;
 }
+
 input:valid{
     border:2px solid green;
+} */
+
+/* .order-1 li::marker{
+    color:rgb(31, 6, 255);
+}
+
+.order-2 li::marker{
+    color:rgb(230, 255, 6);
 } */
 
 /*
@@ -77,27 +72,28 @@ input:valid{
 /* *:read-only{
     font-size: 50px;
     color:blue;
-}
+} */
 
-
-*:read-write{
+/* *:read-write{
     font-size: 35px;
     font-style: italic;
     color:green;
 } */
 
 /* :root{
-    --color-1:red;
+    --color-1:rgb(5, 235, 135);
     --color-2:green;
+    --flex:flex;
 }
 
 .boxx-1{
     height: 100px;
     width:100px;
     background-color: var(--color-1);
-}
+    display: var(--flex);
+} */
 
-*:lang("en"){
+/* *:lang("en"){
     color:green;
     background-color: red;
 } */
@@ -121,15 +117,15 @@ input:valid{
 
 */    
 
-h1:only-child{
+/* div:not(.box-1){
     background-color: yellow;
     color:red;
-}
+} */
 
-a[target=_self]{
+/* a[target=_blank]{
     color:red;
     background-color: green;
-}
+} */
 
 
 /* css pseudo element */
@@ -145,7 +141,7 @@ a[target=_self]{
 
 /* css after and before */
 
-/* h1::before{
+/* h1::after{
     content: " this is heading tag";
     background-color: red;
     height: 100px;
@@ -162,7 +158,7 @@ a[target=_self]{
 }
 
 .shadow::before{
-    content: "";
+    content: "";    
     height: 100px;
     width: 100px;
     background-color: red;
@@ -177,21 +173,21 @@ a[target=_self]{
     font-size: 50px;
     color:rgb(0, 8, 255);
     text-decoration: underline;
-} */
+}
 
-/* .para-1::first-line{
+.para-1::first-line{
     font-size: 50px;
     color:red;
     background-color: yellow;
 } */
 
- p::selection{
+ /* p::selection{
     height: 100px;
     width: 100px;
     background-color: yellow;
     color:blue;
-    /* text-decoration: underline; */
-}
+    text-decoration: underline;
+} */
 
 
 

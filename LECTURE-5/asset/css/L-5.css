@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); */
+
+
 /* CSS INDEX
             
     GOOGLE FONT
@@ -10,24 +13,41 @@
 
 /* css offline font */
 
-.offline-font-1{
-    font-family: 'Climate Crisis', cursive;
+/* .online-font{
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
 
 }
-.offline-font-2{
-    font-family: 'Ubuntu', sans-serif;
+.offline-font{
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
-}
+} */
 
 /* css display properties */
 
-/* .display-none{
-    display: none;
-} */
+.display-none{
+    /* display: none; */
+    /* visibility: collapse; */
+}
 
 /* .display-inline{
     display: inline;
+} */
+/* span{
+    display: block;
+} */
+
+/* p{
+    height: 200px;
+    width: 500px;
+    background-color: green;
+    color:white;
+    display: inline-block;
+} */
+
+/* .box{
+    display: flex;
+    flex-direction:row;
 } */
 
 /* .demobox-1{
@@ -41,26 +61,31 @@ display: inline-block;
 
 .mainbox{
     height:500px;
-    width:1200px;
+    width:1400px;
     background-color: gray; 
     display: flex;
 }
 
 .mainbox div{
-    flex-basis: 10.0px;
+    flex-basis: 150px;
+    /* flex-grow: 1; */
 }
 
 .box-1{
-    flex-shrink: 4;
+    /* flex-grow: 1; */
+    flex-shrink: 3;
     background-color: rgb(130, 188, 30);
 }
 .box-2{ 
+    /* flex-grow: 4; */
     background-color: rgb(203, 233, 153);
 }
 .box-3{
+    /* flex-grow: 1; */
     background-color: rgb(30, 151, 188);
 }
 .box-4{
+    /* flex-grow: 1; */
     background-color: rgb(210, 171, 17);
 }
 .box-5{
@@ -92,10 +117,10 @@ display: inline-block;
 
 .mainbox1{
     display: flex;
-    height:600px;
-    /* width: 1000px; */
-    max-width: 1300px;
-    border:5px solid red;
+    /* height:600px; */
+    /* width: 450px; */
+    /* max-width: 1300px; */
+    /* border:5px solid red; */
     /* flex-wrap: wrap; */
     /* flex-wrap: nowrap;       */
     /* flex-wrap: wrap-reverse; */
@@ -133,7 +158,7 @@ display: inline-block;
     width:50px;
     height:50px;
     font-size: 50px;
-    align-self: end;
+    align-self:end;
 }
 .box-200{
     background-color: rgb(63, 63, 154);
@@ -141,7 +166,6 @@ display: inline-block;
     width:50px;
     font-size: 50px;
     color:white;
-    align-self: center;
 }
 
 .box-300{
@@ -150,7 +174,6 @@ display: inline-block;
     width:50px;
     font-size: 50px;
     color:white;
-    align-self:center;
 }
 .box-400{
     background-color: rgb(167, 224, 148);
@@ -222,7 +245,7 @@ display: inline-block;
 
  .box-110{
     height: 100px;
-    width: 400PX;
+    width: 300PX;
     background-color: red;
     font-size: 25px;
     font-weight: bold;
@@ -238,7 +261,7 @@ display: inline-block;
 
  .box-130{
      height: 100px;
-     width: 100PX;
+     width: 200PX;
      background-color: rgb(28, 255, 7);
      font-size: 25px;
      font-weight: bold;
@@ -255,12 +278,12 @@ display: inline-block;
            order:1;
        }
        .box-120{
-           order:3;
+           order:2;
        }
        .box-130{
-        order:2;
+        order:4;
     }
     .box-140{
-        order:4;
+        order:3;
     }
     }
