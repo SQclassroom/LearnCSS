@@ -7,191 +7,26 @@ body{
     margin: 0;
 }
 
-/* css position */
+/* css Position */
 
-/* .static{
-    height: 200px;
-    width: 200px;
-    background-color: green;
-    position: static;
-} */
 
-/* .fixeddiv{
-    height:100px;
-    background-color: red;
-    z-index: -2;
-    position: fixed;
-    width: 100%;
 
-}
-.logo{
-    margin-left: 20px;
-}
-.nav-items{
-    margin-right:20px;
-}
+/* Z-index Propeties */
 
-.nav-items nav a {
-    margin-left: 30px;
-    font-size: 25px;
-    text-decoration: none;
-    color:white;
-}
 
-p{
-    position: absolute;
-    z-index: -3;
-} */
-
-/* .sticky{
-    height: 100px;
-    width: 100%;
-    background-color: brown;
-    position: sticky;   
-    top:500px;
-} */
-
-.mainbox{
-    display: flex;   
-    height:600px;
-    width:1300px;
-    border:2px solid blue;
-    position: relative;
-}
-
-.box-1{
-    height:100px;
-    width:100px;
-    background-color: rgb(0, 42, 255); 
-    position: absolute;
-    right:0;
-}
-.box-2{
-    height:100px;
-    width:100px;
-    background-color: rgb(224, 83, 13);
-    position: absolute;
-    bottom: 0;
-}.boxx-2{
-    position: absolute;
-    bottom: 0;
-    height: 20px;
-    width: 20px;
-    background-color:blue ;
-}
-.box-3{
-    height:100px;
-    width:100px;
-    background-color: rgb(224, 136, 13);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    left: 0;
-}
-.box-4{
-    height:100px;
-    width:100px;
-    background-color: rgb(227, 243, 14);
-    position:absolute;
-    right: 0;
-    bottom: 0;
-}
-.box-5{
-    height:100px;
-    width:100px;
-    background-color: rgb(235, 66, 66);
-}
-.box-6{
-    height:100px;
-    width:100px;
-    background-color: rgb(66, 211, 12);
-}
-.box-7{
-    height:100px;
-    width:100px;
-    background-color: rgb(20, 161, 111);
-}
-.box-8{
-    height:100px;
-    width:100px;
-    background-color: rgb(255, 0, 0);
-}
-.box-9{
-    height:100px;
-    width:100px;
-    background-color: rgb(177, 20, 191);
-}
-
-/* Z-index propeties */
-
-/* .z-index-1{
-    height: 200px;
-    width: 250px;
-    background-color: red;
-    z-index: 2;
-}   
-.z-index-2{
-    height: 300px;
-    width: 300px;
-    background-color: rgb(128, 0, 119);
-    z-index: 4;
-}
-.z-index-3{
-    height: 400px;
-    width: 350px;
-    background-color: rgb(1, 92, 49);
-    z-index: 3;
-} */
 
 
  /* float properties */
 
-/* .float-1 img{
-    float: right;
-} */
+
 
 /* css clear properties */
 
-/* .clear-1{
-    height:100px;
-    width:100px;
-    background-color: red;
-    float: left;
-}
-.clear-2{
-    height:100px;
-    width:100px;
-    background-color: rgb(0, 4, 255);
-    float: right;
-    clear: left;
-} */
+
 
 /* overflow properties */
 
-/* .box-11{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    border:2px solid blue;
-    overflow: hidden;
-    overflow: scroll;
-    overflow: auto;
-    overflow-x: scroll;
-    overflow-x:hidden;
-    overflow-y: hidden;
-} */
 
-/* .box-22{
-    height: 400px;
-    width:400px;
-    overflow: hidden;
-    overflow: auto;
-} */
-
-/* textarea{
-    resize:both;
-} */
 
 /* css cursor properties */
 
@@ -237,17 +72,7 @@ p{
 
 /*  fill / contain / cover / scale-down / none */
 
-    /* .min-img{
-        height: 600px;
-        width: 600px;
-    }
-    img{
-        height: 100%;
-        width: 100%;
-    }
-    img{
-        object-fit:cover;
-    } */
+    
 
 
 

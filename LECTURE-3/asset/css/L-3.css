@@ -23,139 +23,17 @@ body {
 
 /* CSS MARGIN */
 
-.demo-1 {
-    height: 300px;
-    background-color: rgb(236, 78, 78);
-    border: 5px solid blue;
-    text-align: justify;
-    /* margin: 100px; */
-    /* top right bottom left */
-    /* margin-top: 50px; */
-    /* top */
-    /* margin-left: 100px; */
-    /* left */
-    /* margin-right: 50px; */
-    /* right */
-    /* margin-bottom: 20px; */
-    /* bottom*/
-    /* margin: 20px 40px; */
-    /* top-bottom left-right */
-    /* margin: 10px 20px 30px; */
-    /* top  left-right bottom */
-    /* margin: 100px 20px 30px 40px; */
-    /* top right bottom left */
-}
 
-.demo-1{
-    text-align: justify;
-    height: 300px;
-    background-color: rgb(236, 78, 196); 
-    /* border:5px solid blue; */
-    /* padding: 30px; */
-    /* top right bottom left */
-    /* padding-top: 50px; */
-    /* top */
-    /* padding-left: 100px; */
-    /* left */
-    /* padding-right: 100px; */
-    /* right */
-    /* padding-bottom: 50px; */
-    /* bottom */
-    /* padding: 20px 40px; */
-    /* top-bottom left-right */
-    /* padding: 10px 20px 30px; */
-    /* top left-right bottom */
-    /* padding: 10px 20px 30px 40px; */
-    /* top right bottom left */
-}
-
-.div-1 {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    margin: 20px;
-    /* top right bottom left*/
-    margin-top: 50px;
-    /* top */
-    margin-left: 100px;
-    /* left */
-    margin-right: 50px;
-    /* right */
-    margin-bottom: 20px;
-    /* bottom */
-    margin: 20px 40px;
-    /*  top20 bottom20 left40 right40 */
-    margin: 10px 20px 30px;
-    /* top10 left20 right20 bottom30 */
-    margin: 10px 20px 30px 40px;
-    /* top10 right20 bottom30 left40 */
-}
-
-.div-2 {
-    height: 300px;
-    width: 300px;
-    background-color: red;
-    padding: 20px;
-    /* top right bottom left*/
-    padding-top: 50px;
-    /* top */
-    padding-left: 100px;
-    /* left */
-    padding-right: 50px;
-    /* right */
-    padding-bottom: 20px;
-    /* bottom */
-    padding: 20px 40px;
-    /*  top20 bottom20 left40 right40 */
-    padding: 10px 20px 30px;
-    /* top10 left20 right20 bottom30 */
-    padding: 10px 20px 30px 40px;
-    /* top10 right20 bottom30 left40 */
-}
 
 
 /* box-sizing properties */
 
-.content-box {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(0, 255, 94);
-    border: 10px solid blue;
-    padding: 10px;
-    box-sizing: content-box;
-    /* defualt */
-}
 
-.border-box {
-    height: 300px;
-    width: 300px;
-    background-color: red;
-    border: 10px solid blue;
-    padding: 10px;
-    box-sizing: border-box;
-}
 
 
 /* css width / height */
 
-/* .box-11 {
-    width: 500px;
-    background-color: yellowgreen;
-    border:5px solid red;
-}
 
-.box-12 {
-    max-width:500px;
-    background-color: yellowgreen;
-    border:5px solid red;
-    margin: 20px 0px;
-}
-
-.box-13{
-    min-width:500px;
-    background-color: blue;
-    border:5px solid red;
-} */
 
 /* listing tag and table tag in css */
 
@@ -188,19 +66,13 @@ ol {
 
 
 /* unorder list */
-
+/* 
 ul {
-    /* list-style-type: disc;
+    list-style-type: disc;
     list-style-type: circle;
-    list-style-type: square; */
-}
+    list-style-type: square;
+} */
 
 /* css box-shadow */
 
-.box-1 {
-    height: 300px;
-    width: 300px;
-    background-color: blue;
-    box-shadow: 50px 50px 100px red ;
-    /* x-axix y-axis bluriness background-color */
-}
+

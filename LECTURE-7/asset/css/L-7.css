@@ -6,21 +6,7 @@
 
 /* css 2D transform */
 
-.div-1{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    font-size: 45px;
-    color:white;
-    margin: 100px 0px 0px 100px;
-}
-.div-1:hover{
-   /* transform: translateY(200px); */
-   /* transform: scaleY(3); */
-   /* transform: rotate(-360deg); */
-   /* transform: skewy(180deg); */
-   /* transition: 3s; */
-}
+
 
 /* css 3D transform */
 
@@ -44,40 +30,6 @@
 
 /* css transition */
 
-.div-5{
-    margin-top: 100px;
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    color:white;
-    font-size: 30px;
-    position: absolute;
-    z-index: 3;
-    top: 0;
-}
-
-.div-5:hover{
-  width: 900px;
-  height: 600px;
-  transition-duration: 5s;
-  transition-delay: 5s;
-  /* transition-property:height ; */
-  /* transition-timing-function:steps(5); */
-
-}
-
-
-/* .div-6{
-    margin-top: 100px;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(0, 17, 255);
-    color:white;
-    font-size: 30px;
-    position: absolute;
-    top: 0;
-    z-index: 4;
-} */
 
 
 
@@ -86,17 +38,7 @@
 
 /* css filter */
 
-img{
-    height: 500px;
-    width: 500px;
-    /* filter: blur(1px); */
-    /* filter: brightness(50%); */
-    /* filter: contrast(100%); */
-    /* filter: hue-rotate(120deg); */
-    /* filter: grayscale(50%); */
-    /* filter: invert(100%); */
-    /* filter:drop-shadow(20px 30px 5px rgb(251, 255, 0)); */
-}
+
 
 
 
