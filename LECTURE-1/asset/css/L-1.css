@@ -61,5 +61,17 @@ css background properties
     visited
 */
 
+a:link{
+    background-color: red;
+}
+/* a:active{
+    background-color: green;
+} */
+/* a:hover{
+    background-color: yellow;
+} */
+/* a:visited{
+    background-color: black;
+} */
 
 
