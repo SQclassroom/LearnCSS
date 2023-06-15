@@ -5,7 +5,6 @@ body{
 /* accent-color*/
 
 
-
 /* 
     :disabled
     :enabled(defult)
@@ -14,11 +13,18 @@ body{
     :focus
     :hover
     :required
-    ::marker
     :invalid
     :valid 
+    ::marker
 
 */
+
+ol li::marker{
+    color:red;
+}
+ul li::marker{
+    color:rgb(1, 238, 211);
+}
 
 
 
@@ -29,6 +35,21 @@ body{
     :lang()
 
 */
+
+:root{
+    --color-1:red;
+    --color-2:rgb(0, 9, 128);
+}
+
+.root{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color-2);
+}
+
+:lang("en"){
+    background-color: yellow;
+}
 
 
 
