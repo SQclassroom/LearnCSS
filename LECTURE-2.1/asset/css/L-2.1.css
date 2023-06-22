@@ -51,17 +51,35 @@ p{
 }
 
 
-/* css verticle align */
+/* css verticle alignment */
 
+
+p{
+    text-decoration:1px underline;
+    /* text-decoration: 1px line-through; */
+    /* text-decoration: 1px overline;    */
+}
 
 
 /* css white space */
 
 
+.whitespace{
+    white-space: pre;
+    white-space: nowrap;
+    white-space: normal;
+}
+
 
 /* css visibility */
 
 
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    visibility: visible;
+}
 
 
 

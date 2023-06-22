@@ -5,7 +5,6 @@ body{
 /* accent-color*/
 
 
-
 /* 
     :disabled
     :enabled(defult)
@@ -14,11 +13,18 @@ body{
     :focus
     :hover
     :required
-    ::marker
     :invalid
     :valid 
+    ::marker
 
 */
+
+ol li::marker{
+    color:red;
+}
+ul li::marker{
+    color:rgb(1, 238, 211);
+}
 
 
 
@@ -29,6 +35,21 @@ body{
     :lang()
 
 */
+
+:root{
+    --color-1:red;
+    --color-2:rgb(0, 9, 128);
+}
+
+.root{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color-2);
+}
+
+:lang("en"){
+    background-color: yellow;
+}
 
 
 
@@ -46,12 +67,12 @@ body{
     :nth-of-type()
     :only-of-type
     :only-child
-    :target
-    :not()
     :odd(3n)
     :even(2n)
-    :empty
+    :not()
     :where
+    :target
+    :empty
 
 */    
 
@@ -71,11 +92,11 @@ body{
 
 */
 
-/* a[href]{
+/* a[target]{
     background-color: red;
 } */
 
-/* a[value="image"]{
+/* a[value="image-1"]{
     background-color: red;
 } */
 
@@ -89,13 +110,16 @@ body{
 
 /* a[class|="link"]{
     background-color: red;
+}
+div[class|="link"]{
+    background-color: red;
 } */
 
 /* a[class^="link"]{
     background-color: red;
 } */
 
-/* a[class$="box"]{
+/* div[class$="box"]{
     background-color: red;
 } */
 
@@ -103,7 +127,7 @@ body{
     background-color: red;
 } */
 
-/* a[class*="link"]{
+/* div[class*="n"]{
     background-color: red;
 } */
 
@@ -121,11 +145,33 @@ body{
 
 /* css after and before */
 
-.box{
+/* .box{
     height: 10pc;
     width:10pc;
     background-color: red;
+    position: relative;
 }
 
+.box::after{
+    content: "";
+    height: 5pc;
+    width: 5pc;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    right:-10px;
+    bottom:-10px;
+} */
+
+
+/* h1::after{
+    content: "html";
+} */
+
+p::selection{
+    font-size: 35px;
+    color:red;
+    background-color: rgb(0, 76, 255);
+}
 
 
