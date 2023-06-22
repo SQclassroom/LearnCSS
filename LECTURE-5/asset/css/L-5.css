@@ -1,21 +1,47 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); */
+/* css online font */
 
-
-/* CSS INDEX
-            
-    GOOGLE FONT
-    OFFLINE FONT
-    CSS DISPLAY PROPERTIES
-    CSS FLEX-PROPERTIES
-    CSS FLEX-BOX
-
-*/
 
 /* css offline font */
 
 
 
 /* css display properties */
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:1px solid black;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    border:1px solid black;
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    border:1px solid black;
+}
+.box-4{
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    border:1px solid black;
+}
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    border:1px solid black;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 

@@ -67,12 +67,12 @@ ul li::marker{
     :nth-of-type()
     :only-of-type
     :only-child
-    :target
-    :not()
     :odd(3n)
     :even(2n)
-    :empty
+    :not()
     :where
+    :target
+    :empty
 
 */    
 
@@ -92,11 +92,11 @@ ul li::marker{
 
 */
 
-/* a[href]{
+/* a[target]{
     background-color: red;
 } */
 
-/* a[value="image"]{
+/* a[value="image-1"]{
     background-color: red;
 } */
 
@@ -110,13 +110,16 @@ ul li::marker{
 
 /* a[class|="link"]{
     background-color: red;
+}
+div[class|="link"]{
+    background-color: red;
 } */
 
 /* a[class^="link"]{
     background-color: red;
 } */
 
-/* a[class$="box"]{
+/* div[class$="box"]{
     background-color: red;
 } */
 
@@ -124,7 +127,7 @@ ul li::marker{
     background-color: red;
 } */
 
-/* a[class*="link"]{
+/* div[class*="n"]{
     background-color: red;
 } */
 
@@ -142,11 +145,33 @@ ul li::marker{
 
 /* css after and before */
 
-.box{
+/* .box{
     height: 10pc;
     width:10pc;
     background-color: red;
+    position: relative;
 }
 
+.box::after{
+    content: "";
+    height: 5pc;
+    width: 5pc;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    right:-10px;
+    bottom:-10px;
+} */
+
+
+/* h1::after{
+    content: "html";
+} */
+
+p::selection{
+    font-size: 35px;
+    color:red;
+    background-color: rgb(0, 76, 255);
+}
 
 
