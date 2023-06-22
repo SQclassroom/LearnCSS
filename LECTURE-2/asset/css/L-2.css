@@ -25,23 +25,24 @@ body{
 /* .linear-gradient-1{
     height: 500px;
     width:100%;
-    background: linear-gradient(to top, red, blue , yellow);
+    background: linear-gradient(to bottom, red 20% , blue 30% , yellow 40% , green);
 } */
 
 /* .diagonal-linear-gradient {
     height: 500px;
     width:100%;
-    background: linear-gradient(to bottom left, red 50% , yellow 50%);
+    background: linear-gradient(to top left, red , yellow );
 } */
 
 /* .linear-gradient-rainbow {
     height: 500px;
-    width:100%;
+    width:500px;
+    border-radius: 100%;
     background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)
 } */
 
 /* .radial-gradient-simple {
-    height: 100px;
+    height: 500px;
     width:100%;
     background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
 } */
@@ -55,20 +56,20 @@ body{
 /* .bullseye {
     height: 100vh;
     width:100%;
-    background: repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+    background: repeating-radial-gradient(red, red 5%, white , white 20%);
 } */
 
 /* .warning {
     height: 100vh;
     width:100%;
-    background: repeating-linear-gradient(-45deg, yellow, yellow 10%, black 10%, black 20% );
+    background: repeating-linear-gradient(250deg, yellow, yellow 10%, black 10%, black 20% );
 } */
 
 /* .conic{
     height: 400px;
     width: 400px;
     background-color: red;
-    background-image: conic-gradient(red, yellow, green);
+    background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
 }  */
 
 
@@ -89,6 +90,8 @@ body{
 
 
 
+
+
 /* border radius */
 
 
@@ -101,22 +104,32 @@ outline:width style color;
 */
 
 
+
 /* css opacity */
 
-    
+
 
 /* css button */
 
 /* button tag */
 
+a{
+    background-color: brown;
+    border:none;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
 
- 
-/* anchor tag */
+a:hover{
+    outline:2px solid brown;
+    outline-offset: 1px;
+    background-color: rgb(172, 63, 63);
+    color:white
+}
 
-
-
-
-/* input type button */
 
 
 

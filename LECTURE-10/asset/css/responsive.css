@@ -3,54 +3,82 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-/* @media only screen and (max-width: 1200px) {
-  .mainbox{
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
- .mainbox div{
-   width: 100%;
- }
+
+/* 
+@media only screen and (max-width: 1200px) {
+  body{
+    background-color: red;
+  }
+  .hide{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: green;
+  }
+  .box-1{
+    height: 50px;
+    width: 50px;
+    border:2px solid black;
+  }
  } */
 
  /* Large devices (laptops/desktops, 992px and up) */
 
 /* @media only screen and (max-width: 992px) {
-  .mainbox{
-    justify-content: center;
-    align-items: center;
+  body{
+    background-color: yellow;
   }
-  .mainbox div{
-    width: 50%;
+  .hide{
+    height: 200px;
+    width: 200px;
   }
 } */
 
  /* Medium devices (landscape tablets, 768px and up) */
 
 /* @media only screen and (max-width: 768px) {
-  .mainbox{
-    justify-content: center;
-    align-items: center;
+  body{
+    background-color: green;
   }
-  .mainbox div{
-    width: 30%;
+  .hide{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
   }
 }  */
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {
-
-}
+/* @media only screen and (max-width: 600px) {
+    body{
+      background-color: gray;
+    }
+    .hide{
+      height: 200px;
+      width: 200px;
+      display: block;
+    }
+} */
 
 /* Extra small devices (phones, 320px and down) */
 
 
-@media only screen and (min-width: 320px) {
+/* @media only screen and (max-width: 320px) {
+  body{
+    background-color: blue;
+  }
+  .hide{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+  }
+} */
 
+.box-1{
+  border:2px solid red;
 }
+
 
 
  
@@ -64,20 +92,18 @@
       width: 30%;
     }
   } 
-}
-   */
+} */
+
+
+
+  
 
 /* @media (300px <= width <= 500px) {
-  @media only screen and (max-width: 768px) {
-    .mainbox{
-      justify-content: center;
-      align-items: center;
-    }
-    .mainbox div{
-      width: 30%;
-    }
-  } 
-} */
+   body{
+    background-color: purple;
+   }
+  }  */
+
   
 /* @media (orientation: landscape) {
   @media only screen and (max-width: 768px) {
@@ -98,8 +124,7 @@
       align-items: center;
     }
     .mainbox div{
-      width: 50%;
-    }
+      width: 100%;
   } 
 }  */
   

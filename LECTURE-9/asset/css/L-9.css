@@ -8,24 +8,31 @@ body{
 
 /************ css overlay ***********/
 
-
+/* i{
+  font-size: 50px;
+  color:green;
+  text-decoration: underline;
+} */
 
 
 
 
 /******* css value and units *******/
 
-.box{
-  height: 100px;
-  width: 100px;
-  background-color: green;
+/* .image{
+  position: relative;
+  height: 1cm;
+  width: 2cm;
+  overflow: hidden;
 }
-.box-1{
-  height: initial;
-  width: initial;
-  background-color: gray;
-}
-
+.image:hover .overlay{
+  height: 500px;
+  width: 500px;
+  background-color:rgba(112,112,112,0.4);
+  position: absolute;
+  z-index: 2;
+  top:0;
+} */
    
 /**** css background blend mode  ****/
 
@@ -33,7 +40,7 @@ body{
   height: 100vh;
   background-image:url("../image/earth.jpg") , url("../image/pexels-luis-del-río-15286.jpg");
   background-repeat: no-repeat;
-  background-blend-mode:  soft-light;
+  background-blend-mode:soft-light;
 }
 
 

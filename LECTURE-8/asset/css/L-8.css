@@ -32,6 +32,35 @@ Another example: the moveRight animation:
 
 */
 
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+} */
+
+/* @keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
+
+/* @keyframes run{
+  0%{
+    transform: rotate(45deg);
+  }
+  50%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(900px);
+  }
+} */
+
 
 
 
@@ -75,10 +104,23 @@ You can use negative values: the animation will start as if it had already been 
 */
 
 
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-delay: 5s;
+}
 
-
-
-
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
 
 
 
@@ -107,6 +149,31 @@ stops at the last keyframe
 */
 
 
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-direction: normal;
+  animation-direction: reverse;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
+
+
+
 
 
 
@@ -127,7 +194,28 @@ The styles are applied before and after the animation plays.
 
 */
 
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-fill-mode: forwards;
+  animation-fill-mode: backwards;
+  animation-fill-mode: both;
 
+}
+
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
 
 
 
@@ -146,6 +234,23 @@ By using the keyword infinite, the animation will play indefinitely.
 
 */
 
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+}
+
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
 
 
 
@@ -176,6 +281,26 @@ In this example, the square is visible by default, but the on the first keyframe
 }
 
 */
+
+
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-play-state:paused;
+}
+
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
 
 
 
@@ -211,6 +336,27 @@ animation-timing-function: steps(4, end);
 By using steps() with an integer, you can define a specific number of steps before reaching the end. The state of the element will not vary gradually, but rather jump from state to state in separate instants.
 
 */
+
+
+/* .animate{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation-name:run;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-timing-function: steps(10);
+}
+
+@keyframes run{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translate(900px);
+  }
+} */
+
 
 
 /*

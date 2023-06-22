@@ -5,6 +5,10 @@
     CSS WHITE SPACE
     CSS VISIBILITY
 */
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 body{
     margin: 0;
@@ -39,6 +43,12 @@ body{
 9.Word spacing
 10.Letter-spacing
 */
+
+
+p{
+    color:red;
+    text-shadow: 5px 5px 3px green;
+}
 
 
 /* css verticle align */

@@ -6,6 +6,26 @@
 
 /* css 2D transform */
 
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+.translate:hover{
+    /* height: 200px; */
+    /* width: 200px; */
+    transform: translate(600px);
+    /* transform: scaley(0.5); */
+    /* transform: rotate(-180deg); */
+    /* transform: skewY(45deg); */
+    /* transition: 5s 2s linear; */
+    transition-duration: 5s;
+    /* transition-delay: 5s; */
+    /* transition-property: height;  */
+    /* transition-timing-function: ; */
+}
+
 
 
 /* css 3D transform */
@@ -38,6 +58,20 @@
 
 /* css filter */
 
+
+img{
+    /* filter: blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter: saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+}
 
 
 
